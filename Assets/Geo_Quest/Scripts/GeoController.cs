@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class GeoController : MonoBehaviour
 {
-    string. variableOne = "Hello";
-    {
-
-
-    }
+    string variableOne = "Hello";
+  
     // Start is called before the first frame update
     void Start()
     {
-        string.variableTwo = "World";
+        string variableTwo = "World";
         Debug.Log("Hello World");
+        Debug.Log(variableOne + variableTwo);
     }
 
     // Update is called once per frame
@@ -22,4 +20,4 @@ public class GeoController : MonoBehaviour
         
     }
 }
-Debug.Log(variableOne + variableTwo);
+
