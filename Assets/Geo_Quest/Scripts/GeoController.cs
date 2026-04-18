@@ -38,6 +38,11 @@ public class GeoController : MonoBehaviour
     {
         switch (collision.tag)
         {
+            case "Coin":
+                {
+                    Destroy(collision.gameObject);
+                    break;
+                }
             case "Death":
                 {
                     string thisLevel = SceneManager.GetActiveScene().name;
